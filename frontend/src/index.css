@@ -1,0 +1,42 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.section{
+  padding: 50px 0 50px 0;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .btn{
+    padding: 6px 24px;
+  }
+}
+
+
+.tab {
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+.active {
+  border-bottom: 3px solid #1D4ED8 ; 
+  color: #374151;
+  margin-bottom: -2px;
+}
+
+.inactive {
+  color: #374151;
+}
+
+.inactive:hover {
+  background-color: #f0f1f3; 
+  color: #374151;
+}
+
